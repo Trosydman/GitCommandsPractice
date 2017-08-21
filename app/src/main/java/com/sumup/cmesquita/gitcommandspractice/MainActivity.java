@@ -6,6 +6,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Button to finish the app
     Button btnFinish;
 
     @Override
