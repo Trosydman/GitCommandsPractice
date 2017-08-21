@@ -6,8 +6,10 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Button to finish the app
     Button btnFinish;
 
+    //Method which create the activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
