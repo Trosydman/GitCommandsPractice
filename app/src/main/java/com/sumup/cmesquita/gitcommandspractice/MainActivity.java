@@ -3,6 +3,7 @@ package com.sumup.cmesquita.gitcommandspractice;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        Toast.makeText(this, "BYE!", Toast.LENGTH_SHORT).show();
         super.onBackPressed();
     }
 }
