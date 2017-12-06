@@ -21,3 +21,9 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    versionApp = "1.0"
+    versionSdk = "1.0"
+    versionSdkMinor = ".0"
+}
